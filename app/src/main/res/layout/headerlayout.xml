@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="bottom"
+    android:background="@drawable/bg1"
+    android:paddingBottom="16dp"
+    android:paddingTop="45dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+        <com.example.lsj.yunmusic.RoundImageView.MyRoundImageView
+            android:id="@+id/myhead"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/myhead"
+            android:layout_gravity="left" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textSize="25px"
+                android:textColor="@color/white"
+                android:text="NullUSea"/>
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="@string/slide_menu_sign"
+                android:textColor="@color/light_gray"
+                android:textSize="16px"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>

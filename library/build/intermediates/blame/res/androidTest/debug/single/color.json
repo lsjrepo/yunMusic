@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/lsj/文档/yunMusic/library/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/home/lsj/文档/yunMusic/library/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/home/lsj/文档/yunMusic/library/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/home/lsj/文档/yunMusic/library/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    }
+]

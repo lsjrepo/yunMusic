@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tl_custom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/base_color"
+    android:minHeight="?attr/actionBarSize"
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:fitsSystemWindows="true"
+
+    >
+
+    <ImageButton
+        android:id="@+id/toolbar_btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/toolbar_discover_selected"
+        />
+    <ImageButton
+        android:id="@+id/toolbar_btn2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/toolbar_music_selected"
+        android:layout_marginLeft="25dp"
+        />
+    <ImageButton
+        android:id="@+id/toolbar_btn3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/toolbar_friends_selected"
+        />
+
+
+
+
+</android.support.v7.widget.Toolbar>
